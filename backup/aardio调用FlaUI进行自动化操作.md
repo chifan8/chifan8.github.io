@@ -19,6 +19,7 @@ import dotNet;
 import mouse;
 import key;
   
+// 注意此处dll文件路径
 var Core = dotNet.load("FlaUI.Core","\res\v4\FlaUI.Core.dll");
 var UIA3 = dotNet.load("FlaUI.UIA3","\res\v4\FlaUI.UIA3.dll");
 var Interop = dotNet.load("Interop.UIAutomationClient","\res\v4\Interop.UIAutomationClient.dll");
@@ -33,6 +34,7 @@ if(window){
   var ele = window.FindFirstByXPath("//Edit[@Name='文件传输助手']");
   console.log(ele);
   window.SetForeground();
+  // 发送文本内容
   key.sendString("~~~~",100);
   var sendButton = window.FindFirstByXPath("//Button[@Name='发送(S)']");
   var b_rect = sendButton.BoundingRectangle;
