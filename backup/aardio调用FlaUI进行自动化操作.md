@@ -1,11 +1,11 @@
 ## 0x00
 
-- [ ] aardio：https://aardio.com/
-- [ ] FlaUI：https://github.com/FlaUI/FlaUI
-- [ ] FlaUI.Core：可[自行编译](https://github.com/FlaUI/FlaUI)或从[nuget](https://www.nuget.org/packages/FlaUI.Core)获取
-- [ ] FlaUI.UIA3：可[自行编译](https://github.com/FlaUI/FlaUI)或从[nuget](https://www.nuget.org/packages/FlaUI.UIA3)获取
-- [ ] Interop.UIAutomationClient：可[自行编译](https://github.com/FlaUI/FlaUI)或从[nuget](https://www.nuget.org/packages/Interop.UIAutomationClient)获取
-- [ ] 可以参考使用[**FlaUInspect**](https://github.com/FlaUI/FlaUInspect)或系统自带的**inspect.exe**获取控件的XPath，建议对工具识别到的XPath路径进行精简修改后使用。
+- [x] aardio：https://aardio.com/
+- [x] FlaUI：https://github.com/FlaUI/FlaUI
+- [x] FlaUI.Core：可[自行编译](https://github.com/FlaUI/FlaUI)或从[nuget](https://www.nuget.org/packages/FlaUI.Core)获取
+- [x] FlaUI.UIA3：可[自行编译](https://github.com/FlaUI/FlaUI)或从[nuget](https://www.nuget.org/packages/FlaUI.UIA3)获取
+- [x] Interop.UIAutomationClient：可[自行编译](https://github.com/FlaUI/FlaUI)或从[nuget](https://www.nuget.org/packages/Interop.UIAutomationClient)获取
+- [x] 可以参考使用[**FlaUInspect**](https://github.com/FlaUI/FlaUInspect)或系统自带的**inspect.exe**获取控件的XPath，建议对工具识别到的XPath路径进行精简修改后使用。
 
 ## 0x01
 
